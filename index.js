@@ -1,13 +1,13 @@
 /**
- * Knight Bot - A WhatsApp Bot
- * Copyright (c) 2024 Professor
+ * ZMIIX Bot - A WhatsApp Bot
+ * Copyright (c) 2025 zmiixtech 
  * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the MIT License.
  * 
  * Credits:
  * - Baileys Library by @adiwajshing
- * - Pair Code implementation inspired by TechGod143 & DGXEON
+ * - Pair Code implementation inspired by zmiixtech 
  */
 require('./settings')
 const { Boom } = require('@hapi/boom')
@@ -117,7 +117,7 @@ async function startXeonBotInc() {
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
                                 newsletterJid: '120363161513685998@newsletter',
-                                newsletterName: 'KnightBot MD',
+                                newsletterName: 'ZMIIX MD',
                                 serverMessageId: -1
                             }
                         }
