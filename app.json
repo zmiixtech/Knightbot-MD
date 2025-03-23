@@ -1,14 +1,14 @@
 {
-    "name": "KnightBot-MD",
+    "name": "ZMIIX TECH",
     "description": "Advanced WhatsApp Bot with Multiple Features",
     "keywords": [
         "bot",
         "whatsapp",
         "whatsapp-bot",
-        "knightbot",
+        "ZMIIX BOT",
         "multi-device"
     ],
-    "repository": "https://github.com/mruniquehacker/Knightbot-MD",
+    "repository": "https://github.com/zmiixtech/Knightbot-MD/edit/main/app.json",
     "stack": "container",
     "env": {
         "SESSION_ID": {
