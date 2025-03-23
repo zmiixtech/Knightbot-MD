@@ -4,7 +4,7 @@ const crypto = require('crypto');
 const os = require('os');
 
 // Session management
-function generateSessionId(prefix = 'KnightBot') {
+function generateSessionId(prefix = 'zmiixBot') {
     const timestamp = Date.now();
     const random = crypto.randomBytes(4).toString('hex');
     return `${prefix}-${random}-${timestamp}`;
@@ -13,13 +13,13 @@ function generateSessionId(prefix = 'KnightBot') {
 // Get the proper temp directory path
 const getTempDir = () => {
     if (process.env.NODE_ENV === 'production') {
-        const tempDir = '/tmp/knightbot';
+        const tempDir = '/tmp/ZmiixBot';
         if (!fs.existsSync(tempDir)) {
             fs.mkdirSync(tempDir, { recursive: true });
         }
         return tempDir;
     }
-    return path.join(os.tmpdir(), 'knightbot');
+    return path.join(os.tmpdir(), 'ZmiixBot');
 };
 
 // Get session file path
